@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/toDoListsFragment"
+    android:icon="@drawable/ic_to_do_list"
+    android:title="Tasks"/>
+    <item android:id="@+id/completedTasksFragment"
+        android:icon="@drawable/ic_checklist"
+        android:title="Completed"/>
+</menu>

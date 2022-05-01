@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TO-DO List</string>
+
+    <string name="description">To Do is a task management app to help you stay
+        organized and manage your day-to-day. You can use
+        To Do to make shopping lists or task lists, take notes, record collections,
+        plan an event, or set reminders to increase your productivity and focus on what matters to you.
+       To Do makes it easy to stay organized and manage your life.</string>
+
+    <string name="signing">If you\'re a new user, begin your journey by in signing up to our app,if already signed up please sign in </string>
+
+    <string name="signup_description">Hey new user, become a member of our app by just entering the details mentioned below</string>
+    <string name="signin_description">Welcome back, please enter the email id and password you used to sign up,to get going</string>
+    <string name="welcome">\"Welcome, \"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="have_you_completed_the_task">Have you completed the task ?</string>
+
+</resources>

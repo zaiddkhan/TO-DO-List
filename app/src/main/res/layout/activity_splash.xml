@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activities.SplashActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:layout_gravity="center_vertical|start"
+        app:cardCornerRadius="10dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:src="@drawable/splash_icon"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="250dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:text="TO-"
+        android:textColor="@color/white"
+        android:textSize="90dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:gravity="center"
+        android:text="DO"
+        android:textColor="@color/white"
+        android:textSize="90dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bangers"
+        android:layout_marginTop="0dp"
+        android:text="list"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
